@@ -1,16 +1,21 @@
-# test_bank
+# Test Bank
 
-A new Flutter project.
+## Descrição    
+Este projeto é um teste de desenvolvimento de um aplicativo. O aplicativo foi desenvolvido em Flutter e possui as seguintes funcionalidades:
+- Saque (R$ 100)
+- Depósito (R$ 100)
+- Exibição de saldo
+- Botão de exibir/ocultar saldo
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+=======
+## Setup para Teste
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Clone o repositório
+- Configure o ambiente de desenvolvimento Flutter para Android e Web
+- Execute o projeto
+- Faça as alterações necessárias (caso queira)
+- Gere o BUILD do projeto versão Android
+- Execute o arquivo APK gerado no seu dispositivo Android
+- Gere o BUILD do projeto versão Web
+- Publique o projeto em um servidor web (Netlify, Firebase, etc)
