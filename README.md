@@ -19,3 +19,9 @@ Este projeto é um teste de desenvolvimento de um aplicativo. O aplicativo foi d
 - Execute o arquivo APK gerado no seu dispositivo Android
 - Gere o BUILD do projeto versão Web
 - Publique o projeto em um servidor web (Netlify, Firebase, etc)
+
+
+Links de Referência:
+- [Flutter](https://flutter.dev/)
+- [Build Web](https://docs.flutter.dev/platform-integration/web/building)
+- [Build Android](https://flutter.dev/docs/deployment/android)
