@@ -30,12 +30,14 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _money = 2000;
+  int _money = 100;
   bool _isVisible = false;
-
-  void _sacarDinheiro(int valor) {
+  
+  void _sacarDinheiro (int valor) {
     setState(() {
-      _money -= valor;
+      if (_money - valor >= 0) {
+        _money -= valor;
+      } 
     });
   }
 
@@ -99,7 +101,8 @@ class _MyHomePageState extends State<MyHomePage> {
                               'R\$ ${_isVisible ? _money : '******'}',
                               style: TextStyle(
                                 fontSize: 30,
-                                color: Theme.of(context).colorScheme.onPrimary,
+                                // color: Theme.of(context).colorScheme.onPrimary,
+                                color: _money >=1 ? Theme.of(context).colorScheme.onPrimary : const Color.fromARGB(255, 218, 31, 18),
                               ),
                             ),
                             IconButton(
